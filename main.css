@@ -1,0 +1,126 @@
+* {
+    font-family: sans-serif;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #cacbd0
+}
+section.header nav.navigation ul {
+    list-style: none;
+    background: #15366c;
+    color: white;
+    height: 45px;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+section.header nav.navigation ul a {
+    color: white;
+}
+section.header nav.navigation ul a:visited {
+    color: white;
+}
+section.header nav.navigation ul a:hover {
+    color: green;
+}
+section.header nav.navigation ul li:hover {
+    color: green;
+}
+
+section.header nav.navigation ul li{
+    display: inline;
+    margin: 10px 10px;
+}
+section.header img {
+    width: 750px;
+    max-width: 100%;
+    height: auto;
+   }
+section.header {
+    background: #1b4884;
+    text-align: center;
+}
+
+div.HomePage h1 {
+    color: #1e4682;
+}
+main {
+    display: flex;
+    justify-content: center;
+    margin-top: 6px;
+}
+div.HomePage {
+    justify-content: center;
+    border-radius: 10px;
+    background-color: white;
+    width: 750px;
+    padding-left: 40px;
+    padding-top: 20px;
+}
+div.article li {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+div.ContactMain {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: white;
+    width: 750px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+}
+div.ContactMain p {
+    font-size: 18px;
+    margin-bottom: 0;
+}
+
+div.ContactMain input {
+    height: 40px;
+    max-width: 400px;
+}
+div.ContactMain input.yourMessage {
+    height: 300px;
+    max-width: 100%;
+}
+.ContactMain button {
+    margin-bottom: 80px;
+    margin-top: 20px;
+    height: 50px;
+    background-color: #1b4884;
+    color: white;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    font-size: 18px;
+}
+.ContactMain button:hover {
+    color: green;
+}
+input {
+    background: #fafafa;
+    border: 1px solid #ccc;
+    max-width: 100%;
+    padding: 10px 15px;
+}
+div.ShopMain {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: white;
+    width: 750px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+}
